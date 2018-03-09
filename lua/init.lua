@@ -1,0 +1,6 @@
+print("sleeping 5000")
+tmr.alarm(0, 5000, tmr.ALARM_SINGLE, function()
+  print("going deep sleep")
+  node.dsleep(0,4,1)
+  -- tmr.delay(100)
+end)
