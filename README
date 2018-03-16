@@ -1,0 +1,12 @@
+# Deepsleep button
+a button with an LED.
+
+1. connect to wifi (or fallback to softap)
+2. enable arduinoOTA
+3. do your thing (send http request)
+4. deepsleep
+
+# wiring
+
+RST -> Button -> GND
+GPIO5 -> LED -> GND
